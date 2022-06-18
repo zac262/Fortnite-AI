@@ -1,0 +1,284 @@
+import pyautogui
+import keyboard
+import mouse
+import time
+import win32api,win32con
+w = 'w'
+a = 'a'
+s = 's'
+d = 'd'
+space = 'space'
+control = 'ctrl'
+
+one = '1'
+two = '2'
+three = '3'
+four = '4'
+z = 'z'
+v = 'v'
+
+shift = 'shift'
+i = 'i'
+l = 'l'
+b = 'b'
+e = 'e'
+
+right = 'right'
+left = 'left'
+#def click():
+#    keyboard.press()
+#    keyboard.release()
+    
+#def keyDown():
+#    keyboard.press()
+
+#def keyUp():
+#    keyboard.release()
+
+#def mouseClick():
+#    pyautogui.mouseDown()
+#    pyautogui.mouseUp()
+    
+#def mouseDown():
+#    pyautogui.mouseDown()
+    
+#def mouseUp():
+#    pyautogui.mouseUp()
+
+
+#SPECIFIC FUNCTIONS
+# W
+
+def clickw():
+    keyboard.press(w)
+    keyboard.release(w)
+    
+def keyDownw():
+    keyboard.press(w)
+
+def keyUpw():
+    keyboard.release(w)
+
+# a
+
+def clicka():
+    keyboard.press(a)
+    keyboard.release(a)
+    
+def keyDowna():
+    keyboard.press(a)
+
+def keyUpa():
+    keyboard.release(a)
+    
+# s
+
+def clicks():
+    keyboard.press(s)
+    keyboard.release(s)
+    
+def keyDowns():
+    keyboard.press(s)
+
+def keyUps():
+    keyboard.release(s)
+    
+# d
+
+def clickd():
+    keyboard.press(d)
+    keyboard.release(d)
+    
+def keyDownd():
+    keyboard.press(d)
+
+def keyUpd():
+    keyboard.release(d)
+    
+# space
+
+def clickspace():
+    keyboard.press(space)
+    keyboard.release(space)
+    
+def keyDownspace():
+    keyboard.press(space)
+
+def keyUpspace():
+    keyboard.release(space)
+    
+# control
+
+def clickcontrol():
+    keyboard.press(control)
+    keyboard.release(control)
+    
+def keyDowncontrol():
+    keyboard.press(control)
+
+def keyUpcontrol():
+    keyboard.release(control)
+
+# one
+
+def clickone():
+    keyboard.press(one)
+    keyboard.release(one)
+    
+def keyDownone():
+    keyboard.press(one)
+
+def keyUpone():
+    keyboard.release(one)
+
+# two
+
+def clicktwo():
+    keyboard.press(two)
+    keyboard.release(two)
+    
+def keyDowntwo():
+    keyboard.press(two)
+
+def keyUptwo():
+    keyboard.release(two)
+    
+# three
+
+def clickthree():
+    keyboard.press(three)
+    keyboard.release(three)
+    
+def keyDownthree():
+    keyboard.press(three)
+
+def keyUpthree():
+    keyboard.release(three)
+    
+# four
+
+def clickfour():
+    keyboard.press(four)
+    keyboard.release(four)
+    
+def keyDownfour():
+    keyboard.press(four)
+
+def keyUpfour():
+    keyboard.release(four)
+    
+# z
+
+def clickz():
+    keyboard.press(z)
+    keyboard.release(z)
+    
+def keyDownz():
+    keyboard.press(z)
+
+def keyUpz():
+    keyboard.release(z)
+    
+# v
+
+def clickv():
+    keyboard.press(v)
+    keyboard.release(v)
+    
+def keyDownv():
+    keyboard.press(v)
+
+def keyUpv():
+    keyboard.release(v)
+
+# shift
+
+def clickshift():
+    keyboard.press(shift)
+    keyboard.release(shift)
+    
+def keyDownshift():
+    keyboard.press(shift)
+
+def keyUpshift():
+    keyboard.release(shift)
+    
+# i
+
+def clicki():
+    keyboard.press(i)
+    keyboard.release(i)
+    
+def keyDowni():
+    keyboard.press(i)
+
+def keyUpi():
+    keyboard.release(i)
+
+# l
+
+def clickl():
+    keyboard.press(l)
+    keyboard.release(l)
+    
+def keyDownl():
+    keyboard.press(l)
+
+def keyUpl():
+    keyboard.release(l)
+    
+# b
+
+def clickb():
+    keyboard.press(b)
+    keyboard.release(b)
+    
+def keyDownb():
+    keyboard.press(b)
+
+def keyUpb():
+    keyboard.release(b)
+
+# e
+
+def clicke():
+    keyboard.press(e)
+    keyboard.release(e)
+    
+def keyDowne():
+    keyboard.press(e)
+
+def keyUpe():
+    keyboard.release(e)
+    
+    
+# leftClick
+
+def mouseClickleft():
+    pyautogui.mouseDown(button = left)
+    pyautogui.mouseUp(button = left)
+    
+def mouseDownleft():
+    pyautogui.mouseDown(button = left)
+    
+def mouseUpleft():
+    pyautogui.mouseUp(button = left)
+
+# rightClick
+
+def mouseClickright():
+    pyautogui.mouseDown(button = right)
+    pyautogui.mouseUp(button = right)
+    
+def mouseDownright():
+    pyautogui.mouseDown(button = right)
+    
+def mouseUpright():
+    pyautogui.mouseUp(button = right)
+    
+# mouseMove
+
+def mouseMove():
+    win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, 3000, 0, 0, 0)
+    
+time.sleep(5)
